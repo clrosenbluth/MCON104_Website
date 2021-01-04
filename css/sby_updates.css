@@ -1,0 +1,77 @@
+/* Date Updated Styles */
+
+header h2#updatedHeading {
+    position: absolute;
+    top: 15px;
+    left: 920px;
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #69e5ae;
+}
+
+div#dateUpdated {
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 855px;
+    text-align: right;
+    background-color: transparent;
+    border: hidden;
+    color: #69e5ae;
+    width: 140px;
+    font-size: 0.75em;
+    line-height: 1.1em;
+    font-weight: normal;
+}
+
+/* Time Clock Styles */
+
+header h2#timeHeading {
+    position: absolute;
+    top: 15px;
+    left: 1010px;
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #69e5ae;
+}
+
+div#dateNow {
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 945px;
+    text-align: right;
+    background-color: transparent;
+    border: hidden;
+    color: #69e5ae;
+    width: 140px;
+    font-size: 0.75em;
+    line-height: 1.1em;
+    font-weight: normal;
+}
+
+/* Styles for the Countdown Clock */
+
+header h2#countHeading {
+    position: absolute;
+    top: 15px;
+    left: 1100px;
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #69e5ae
+}
+
+div#count {
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 1030px;
+    text-align: right;
+    background-color: transparent;
+    border: hidden;
+    color: #69e5ae;
+    width: 140px;
+    font-size: 0.75em;
+    line-height: 1.1em;
+    font-weight: normal;
+}

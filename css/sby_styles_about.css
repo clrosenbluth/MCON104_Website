@@ -1,0 +1,10 @@
+/* Styles for about page */
+
+#staff {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer {
+    position: relative;
+}

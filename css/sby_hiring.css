@@ -1,0 +1,62 @@
+table.regions {
+    border: 5px outset black;
+    font-size: .85em;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table.regions th, table.regions td {
+    border: 1px solid grey;
+    padding: 5px;
+    vertical-align: top;
+}
+
+table.regions caption {
+    caption-side: bottom;
+    text-align: right;
+    color: black;
+    margin-top: 2px;
+}
+
+table.regions thead {
+    background: #d5f8e8;
+}
+
+table.regions thead tr {
+    height: 30px;
+}
+
+table.regions tbody {
+    background: #ebfbf4;
+}
+
+table.regions tbody tr {
+    height: 40px;
+}
+
+col#region {
+    width: 16%;
+}
+
+col.info {
+    width: 12%;
+}
+
+table.regions a {
+    text-decoration: none;
+}
+
+table.regions address {
+    font-style: normal;
+}
+
+table.regions a:link,
+table.regions a:visited {
+    color: black;
+}
+
+table.regions a:hover,
+table.regions a:active {
+    color: #69e5ae;
+}

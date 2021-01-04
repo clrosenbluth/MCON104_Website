@@ -1,0 +1,41 @@
+div.formRow {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+}
+
+div.formRow > * {
+    flex: 1 1 150px;
+}
+
+form#pricing {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+form#pricing > fieldset {
+    background: #ebfbf4;
+    border-radius: 20px;
+    flex: 1 1 300px;
+    font-size: 0.85em;
+    padding: 10px;
+    margin: 10px;
+}
+
+form#pricing legend {
+    padding: 5px;
+}
+
+form#pricing fieldset.method {
+    text-align: right;
+}
+
+div#buttons {
+    text-align: center;
+    width: 100%;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 5px;
+    margin: 15px;
+}

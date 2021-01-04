@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pricing</title>
+
+    <link href="css/sby_reset.css" rel="stylesheet" />
+    <link href="css/sby_styles1.css" rel="stylesheet" />
+    <link href="css/sby_pricing.css" rel="stylesheet" />
+    <link href="css/sby_updates.css" rel="stylesheet" />
+    <script src="js/sby_updates.js" defer></script>
+    <script src="js/rb_formsubmit.js"></script>
+</head>
+<body>
+<header>
+    <img id="logo" src="images/sby_logo.png" alt="School By You">
+    <nav id="topNav">
+        <ul>
+            <li><a href="sby_home.html">Home</a></li>
+            <li><a href="sby_about.html">About Us</a></li>
+            <li><a href="sby_edu_main.html">Methods</a></li>
+            <li><a href="sby_pricing.html">Pricing</a></li>
+            <li><a href="sby_hiring.html">Join Our Team</a></li>
+        </ul>
+    </nav>
+
+    <h2 id="updatedHeading">Page Updated</h2>
+
+    <div id="dateUpdated">11/8/2021<br />2:45:12 p.m.</div>
+
+    <h2 id="timeHeading">Current Time</h2>
+
+    <div id="dateNow">something<br />something</div>
+
+    <h2 id="countHeading">Last Update</h2>
+
+    <div id="count">something<br />something</div>
+
+</header>
+
+<article>
+    <h2>Pricing</h2>
+
+    <p>We are dedicated to providing you with the
+        education you need, at the price you need.
+        Our pricing is flexible and individualized,
+        based on your unique mixture of education
+        methods.</p>
+
+    <p>Here's a list of typical price ranges for each
+        of our methods. If you're looking for a more
+        accurate estimate, please feel free to contact
+        us or fill out the form below.</p>
+
+    <ul>
+        <li>Homeschooling: $100-$350 per month (depending
+            on the chosen curriculum and grade level)</li>
+        <li>Pod Learning: $800-$1100 per month (this price
+            can be broken down between families)</li>
+        <li>Hybrid Learning: $300-$700 per month (depending
+            on the balance of methods chosen)</li>
+        <li>Tutoring: $40-$75 per session</li>
+    </ul>
+
+    <form id="pricing" action="http://www.example.com" method="post">
+
+        <fieldset id="personal">
+            <legend>Your Info</legend>
+
+            <div class="formRow">
+                <label for="fname">First Name*</label>
+                <input name="custFirstname" id="fname" type="text" required/>
+            </div>
+
+            <div class="formRow">
+                <label for="lname">Last Name*</label>
+                <input name="custLastname" id="lname" type="text" required/>
+            </div>
+
+            <div class="formRow">
+                <label for="city">City</label>
+                <input name="custCity" id="city" type="text" />
+            </div>
+
+            <div class="formRow">
+                <label for="state">State*</label>
+                <input name="custState" id="state" type="text" required/>
+            </div>
+
+            <div class="formRow">
+                <label for="zip">Zip</label>
+                <input name="custZip" id="zip" type="text" pattern="^\d{5}(-\d{4})?$"/>
+            </div>
+
+            <div class="formRow">
+                <label for="email">Email*</label>
+                <input name="custEmail" id="email" type="email" required/>
+            </div>
+
+            <div class="formRow">
+                <label for="source">Where did you hear about us? <br/>
+                (select all that apply)</label>
+                <select name="infoSource" id="source" size="5" multiple>
+                    <option value="internet">Internet</option>
+                    <option value="mag">Magazine</option>
+                    <option value="news">Newspaper</option>
+                    <option value="word">Word of mouth</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <input name="mailMe" id="mailSBY" value="yes" type="checkbox" />
+            <label for="mailSBY">Add me to you mailing list for updates and coupons!</label>
+
+        </fieldset>
+
+        <fieldset id="plan">
+            <legend>Your Plan</legend>
+
+            <div class="formRow">
+                <label>What is your child's academic level?*</label>
+                <fieldset class="optGroup">
+                    <input name="academic" id="eschool" value="yes" type="radio" required/>
+                    <label for="eschool">Elementry School</label><br />
+                    <input name="academic" id="mschool" value="yes" type="radio" />
+                    <label for="mschool">Middle School</label><br />
+                    <input name="academic" id="hschool" value="yes" type="radio" />
+                    <label for="hschool">High School</label>
+                </fieldset>
+            </div>
+
+            <div class="formRow">
+                <label for="subject">What subject(s) are you <br/>looking for?*<br/>
+                (select all that apply)</label>
+                <select name="infoSource" id="subject" size="3" multiple required>
+                    <option value="math">Math</option>
+                    <option value="science">Science</option>
+                    <option value="lit">Literature</option>
+                    <option value="writing">Writing</option>
+                    <option value="lang">Languages</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="formRow">
+                <label>What method(s) are you interested in?*</label> <br/>
+                    <fieldset class="method">
+                    <label class="method">Homeschooling: </label>
+                        <input name="home" id="yhome" value="yes" type="radio" required/>
+                        <label for="yhome">Yes</label>
+                        <input name="home" id="nhome" value="no" type="radio" />
+                        <label for="nhome">No</label>
+                        <br/>
+
+                        <label class="method">Pod Learning: </label>
+                        <input name="pod" id="ypod" value="yes" type="radio" required/>
+                        <label for="ypod">Yes</label>
+                        <input name="pod" id="npod" value="no" type="radio" />
+                        <label for="npod">No</label>
+                        <br/>
+
+                        <label class="method">Hybrid Learning: </label>
+                        <input name="hybrid" id="yhybrid" value="yes" type="radio" required/>
+                        <label for="yhybrid">Yes</label>
+                        <input name="hybrid" id="nhybrid" value="no" type="radio" />
+                        <label for="nhybrid">No</label>
+                        <br/>
+
+                        <label class="method">Tutoring: </label>
+                        <input name="tutor" id="ytutor" value="yes" type="radio" required/>
+                        <label for="ytutor">Yes</label>
+                        <input name="tutor" id="ntutor" value="no" type="radio" />
+                        <label for="ntutor">No</label>
+                    </fieldset>
+                </div>
+
+        </fieldset>
+
+        <div id="buttons">
+            <input type="submit" value="Submit my info request" />
+            <input type="reset" value="Cancel" />
+        </div>
+
+    </form>
+
+</article>
+
+<footer>
+    School By You &copy; 2020 All Rights Reserved
+</footer>
+</body>
+</html>

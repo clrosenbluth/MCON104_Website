@@ -1,0 +1,41 @@
+/* Styles for vertical navigation bar */
+
+#vertNav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 165px;
+  left: 270px;
+  overflow-x: hidden;
+}
+
+#vertNav > ul > li {
+  display: block;
+}
+
+nav#vertNav a {
+    display: block;
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: .25em;
+}
+
+nav#vertNav a:link,
+nav#vertNav a:visited {
+    background-color: #d5f8e8;
+    color: black;
+    border: 1px solid #d5f8e8;
+}
+
+nav#vertNav a:hover,
+nav#vertNav a:active {
+    background-color: #7fe8ba;
+    color: white;
+    border: 1px solid white;
+}
+
+article > section {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  padding: 0px 10px;
+}
